@@ -4,7 +4,7 @@
 
 An elegant & fully customizable chip 🚀
 
-
+![Epic Chip React Native](./epic-chip.png)
 
 ---
 
@@ -60,6 +60,6 @@ Please install `React Native Vector Icons` `npm i react-native-vector-icons @typ
 
 <div align="center">
 
-Liked the Component? 😇
+Liked the library? 😇
 
 ---
