@@ -1,0 +1,6 @@
+module Pods_EpicChipReactNativeExample {
+  umbrella header "Pods-EpicChipReactNativeExample-umbrella.h"
+
+  export *
+  module * { export * }
+}
