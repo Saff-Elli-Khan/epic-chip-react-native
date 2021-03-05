@@ -33,7 +33,7 @@ export const EpicChip = React.forwardRef<EpicChipRef, EpicChipInterface>(
     {
       type,
       mode = "Outlined",
-      titleOptions,
+      labelOptions,
       radius = "Round",
       checkIcon = true,
       isDisabled = false,
@@ -111,21 +111,21 @@ export const EpicChip = React.forwardRef<EpicChipRef, EpicChipInterface>(
           style={[
             type
               ? type === "Mini"
-                ? titleOptions?.label
+                ? labelOptions?.label
                   ? miniChipStyles.chipWrapper
                   : miniChipStyles.checkboxTransform
                 : type === "Large"
-                ? titleOptions?.label
+                ? labelOptions?.label
                   ? largeChipStyles.chipWrapper
                   : largeChipStyles.checkboxTransform
                 : type === "Micro"
-                ? titleOptions?.label
+                ? labelOptions?.label
                   ? microChipStyles.chipWrapper
                   : microChipStyles.checkboxTransform
-                : titleOptions?.label
+                : labelOptions?.label
                 ? chipStyles.chipWrapper
                 : chipStyles.checkboxTransform
-              : titleOptions?.label
+              : labelOptions?.label
               ? chipStyles.chipWrapper
               : chipStyles.checkboxTransform,
             {
@@ -199,16 +199,16 @@ export const EpicChip = React.forwardRef<EpicChipRef, EpicChipInterface>(
                         "#fff"
                       )
                 }
-                style={{ marginRight: titleOptions?.label ? 10 : undefined }}
+                style={{ marginRight: labelOptions?.label ? 10 : undefined }}
               />
-            ) : titleOptions?.Icon &&
-              React.isValidElement(titleOptions.Icon) ? (
-              titleOptions.Icon
+            ) : labelOptions?.Icon &&
+              React.isValidElement(labelOptions.Icon) ? (
+              labelOptions.Icon
             ) : null}
-            {typeof titleOptions?.label === "string"
-              ? EpicChipTitleContent(titleOptions?.label)
-              : React.isValidElement(titleOptions?.label)
-              ? titleOptions?.label
+            {typeof labelOptions?.label === "string"
+              ? EpicChipTitleContent(labelOptions?.label)
+              : React.isValidElement(labelOptions?.label)
+              ? labelOptions?.label
               : EpicChipTitleContent("Unlabelled")}
           </View>
         </View>

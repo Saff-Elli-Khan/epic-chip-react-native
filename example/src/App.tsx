@@ -28,7 +28,7 @@ const App = () => {
 
         <EpicChip
           mode={"Outlined"}
-          titleOptions={{
+          labelOptions={{
             label: "Unchecked",
           }}
           options={{ pickerStyles: { marginRight: 10, marginBottom: 10 } }}
@@ -37,7 +37,7 @@ const App = () => {
           mode={"Outlined"}
           checkIcon
           isChecked
-          titleOptions={{
+          labelOptions={{
             label: "Checked",
           }}
           options={{ pickerStyles: { marginRight: 10, marginBottom: 10 } }}
@@ -46,7 +46,7 @@ const App = () => {
           mode={"Outlined"}
           checkIcon={false}
           isChecked
-          titleOptions={{
+          labelOptions={{
             label: "Checked Without Check Icon",
           }}
           options={{ pickerStyles: { marginRight: 10, marginBottom: 10 } }}
@@ -55,7 +55,7 @@ const App = () => {
           mode={"Outlined"}
           checkIcon
           isDisabled
-          titleOptions={{
+          labelOptions={{
             label: "Disabled",
           }}
           options={{ pickerStyles: { marginRight: 10, marginBottom: 10 } }}
@@ -64,7 +64,7 @@ const App = () => {
           type="Large"
           mode={"Outlined"}
           checkIcon
-          titleOptions={{
+          labelOptions={{
             label: "Large",
           }}
           options={{ pickerStyles: { marginRight: 10, marginBottom: 10 } }}
@@ -73,7 +73,7 @@ const App = () => {
           type="Mini"
           mode={"Outlined"}
           checkIcon
-          titleOptions={{
+          labelOptions={{
             label: "Mini",
           }}
           options={{ pickerStyles: { marginRight: 10, marginBottom: 10 } }}
@@ -82,7 +82,7 @@ const App = () => {
           type="Micro"
           mode={"Outlined"}
           checkIcon
-          titleOptions={{
+          labelOptions={{
             label: "Micro",
           }}
           options={{ pickerStyles: { marginRight: 10, marginBottom: 10 } }}
@@ -103,7 +103,7 @@ const App = () => {
 
         <EpicChip
           mode={"Solid"}
-          titleOptions={{
+          labelOptions={{
             label: "Unchecked",
           }}
           options={{ pickerStyles: { marginRight: 10, marginBottom: 10 } }}
@@ -112,7 +112,7 @@ const App = () => {
           mode={"Solid"}
           checkIcon
           isChecked
-          titleOptions={{
+          labelOptions={{
             label: "Checked",
           }}
           options={{ pickerStyles: { marginRight: 10, marginBottom: 10 } }}
@@ -121,7 +121,7 @@ const App = () => {
           mode={"Solid"}
           checkIcon={false}
           isChecked
-          titleOptions={{
+          labelOptions={{
             label: "Checked Without Check Icon",
           }}
           options={{ pickerStyles: { marginRight: 10, marginBottom: 10 } }}
@@ -130,7 +130,7 @@ const App = () => {
           mode={"Solid"}
           checkIcon
           isDisabled
-          titleOptions={{
+          labelOptions={{
             label: "Disabled",
           }}
           options={{ pickerStyles: { marginRight: 10, marginBottom: 10 } }}
@@ -151,7 +151,7 @@ const App = () => {
 
         <EpicChip
           mode={"Solid"}
-          titleOptions={{
+          labelOptions={{
             label: "Unchecked",
           }}
           isChecked
@@ -171,7 +171,7 @@ const App = () => {
           mode={"Outlined"}
           checkIcon
           isChecked
-          titleOptions={{
+          labelOptions={{
             label: "Checked",
           }}
           options={{
@@ -195,7 +195,7 @@ const App = () => {
           mode={"Solid"}
           checkIcon={false}
           isChecked
-          titleOptions={{
+          labelOptions={{
             label: "Checked Without Check Icon",
           }}
           options={{
@@ -215,7 +215,7 @@ const App = () => {
         <EpicChip
           mode={"Solid"}
           checkIcon
-          titleOptions={{
+          labelOptions={{
             label: "Disabled",
             Icon: (
               <Ionicons
@@ -253,13 +253,13 @@ const App = () => {
         <View style={{ width: "100%", marginVertical: 20 }}>
           <Text style={{ fontSize: 25 }}>Chip To Checkbox</Text>
         </View>
-        
+
         {/* Chip Checkboxes */}
 
         <EpicChip
           mode={"Solid"}
           checkIcon
-          titleOptions={{
+          labelOptions={{
             label: "",
             Icon: <Ionicons name="person" color="white" size={15} />,
           }}
@@ -283,7 +283,7 @@ const App = () => {
           checkIcon
           type="Mini"
           radius={50}
-          titleOptions={{
+          labelOptions={{
             label: "",
             Icon: <Ionicons name="bulb" color="white" size={14} />,
           }}
@@ -308,7 +308,7 @@ const App = () => {
           type="Large"
           isChecked
           radius={50}
-          titleOptions={{
+          labelOptions={{
             label: "",
           }}
           options={{
@@ -324,7 +324,7 @@ const App = () => {
           checkIcon
           isChecked
           isDisabled
-          titleOptions={{
+          labelOptions={{
             label: "",
           }}
           options={{ pickerStyles: { marginRight: 10, marginBottom: 10 } }}
@@ -332,7 +332,7 @@ const App = () => {
         <EpicChip
           mode={"Outlined"}
           checkIcon
-          titleOptions={{
+          labelOptions={{
             label: "",
             Icon: <Ionicons name="bulb" color="gray" size={14} />,
           }}

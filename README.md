@@ -16,7 +16,7 @@ import { EpicChip } from "epic-chip-react-native";
 // ...
 
 <EpicChip
-  titleOptions={{
+  labelOptions={{
     label: "Epic Chip",
   }}
 />;

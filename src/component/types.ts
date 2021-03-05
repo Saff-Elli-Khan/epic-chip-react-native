@@ -1,6 +1,6 @@
 import type { StyleProp, TextStyle, ViewStyle } from "react-native";
 
-export type EpicChipTitleInterface = {
+export type EpicChipLabelInterface = {
   label?: string | React.ReactNode;
   Icon?: React.ReactNode;
 };
@@ -12,7 +12,7 @@ export type EpicChipFocusInterface = {
 
 export interface EpicChipInterface {
   type?: "Mini" | "Large" | "Micro";
-  titleOptions?: EpicChipTitleInterface;
+  labelOptions?: EpicChipLabelInterface;
   mode?: "Outlined" | "Solid";
   checkIcon?: boolean;
   radius?: "Rounded" | "Rounded-Full" | number;
