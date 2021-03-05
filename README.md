@@ -23,8 +23,31 @@ Type `npm i epic-chip-react-native` to install it on your project.
 
 For `yarn` do `yarn add epic-chip-react-native`.
 
-## Note:
+## Note
 Please install `React Native Vector Icons` `npm i react-native-vector-icons @types/react-native-vector-icons`.
+
+## Usage
+
+`import { EpicChip } from "epic-chip-react-native";`
+
+//Load Component
+
+`<EpicChip labelOptions={{label: "Epic Chip"}} />` & Done 😉
+
+## Props
+
+| name                 | description                                                                                         | required | type                                                                                                      | default  |
+| -------------------- | --------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------------------------------------------------------- | -------- |
+| `labelOptions`             | Chip Label Options includes [`label`, `Icon`].                         | NO       | [`string` or `JSX Element`]                                                                     |  |
+| `options`               | Epic Chip Options, [`chipStyles`, `labelStyles`, `backgroundColor`, `labelColor`]                            | NO      | `chipStyles`: `StyleProp<ViewStyle>`, `labelStyles`: `StyleProp<TextStyle>`, `backgroundColor`: {`focusColor`: `#hexCode`, `inActiveColor`: `#hexCode`}, `labelColor`: {`focusColor`: `#hexCode`, `inActiveColor`: `#hexCode`}   |                                                                   |          |
+| `type`              | Chip Type    | NO       | `Mini`, `Micro`, `Large`                                                                                    |          |
+| `mode`           | Chip Mode.                               | NO       | `Outlined`, `Solid`                                                                                                    |          `Outlined`|
+| `checkIcon`             | If you make it false the checkmark icon will be hidden.                        | NO       | `boolean` |    false      |
+| `radius`     | Border Radius of the chip. | NO       | number |                                                               15    |       |
+| `isChecked`     | you can specify a default value. | NO       | `boolean`|                                                                  |          |
+| `isDisabled` | For disabling the chip`.                  | NO       | 'boolean'                                                                                          |   false       |
+| `checkedIcon`           | Changing the default check icon`.                               | NO       | React.ReactNode                                                                                                    |          |
+| `onChange`              | Callback on item change                                                            | NO       | (value: boolean) => void                                                                                                   |     |
 
 ## Author
 

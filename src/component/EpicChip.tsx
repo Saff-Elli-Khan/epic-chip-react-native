@@ -77,7 +77,7 @@ export const EpicChip = React.forwardRef<EpicChipRef, EpicChipInterface>(
                 ? microChipStyles.titleStyles
                 : chipStyles.titleStyles
               : chipStyles.titleStyles,
-            options?.titleStyles,
+            options?.labelStyles,
             {
               color:
                 mode === "Solid" && options?.labelColor
@@ -150,7 +150,7 @@ export const EpicChip = React.forwardRef<EpicChipRef, EpicChipInterface>(
                 "#5e5e5e"
               ),
             },
-            options?.pickerStyles,
+            options?.chipStyles,
           ]}
         >
           <View

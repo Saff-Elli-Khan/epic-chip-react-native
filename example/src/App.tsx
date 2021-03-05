@@ -33,7 +33,7 @@ const App = () => {
               labelOptions={{
                 label: "Unchecked",
               }}
-              options={{ pickerStyles: { marginRight: 10, marginBottom: 10 } }}
+              options={{ chipStyles: { marginRight: 10, marginBottom: 10 } }}
             />
             <EpicChip
               mode={"Outlined"}
@@ -42,7 +42,7 @@ const App = () => {
               labelOptions={{
                 label: "Checked",
               }}
-              options={{ pickerStyles: { marginRight: 10, marginBottom: 10 } }}
+              options={{ chipStyles: { marginRight: 10, marginBottom: 10 } }}
             />
             <EpicChip
               mode={"Outlined"}
@@ -51,7 +51,7 @@ const App = () => {
               labelOptions={{
                 label: "Checked Without Check Icon",
               }}
-              options={{ pickerStyles: { marginRight: 10, marginBottom: 10 } }}
+              options={{ chipStyles: { marginRight: 10, marginBottom: 10 } }}
             />
             <EpicChip
               mode={"Outlined"}
@@ -60,7 +60,7 @@ const App = () => {
               labelOptions={{
                 label: "Disabled",
               }}
-              options={{ pickerStyles: { marginRight: 10, marginBottom: 10 } }}
+              options={{ chipStyles: { marginRight: 10, marginBottom: 10 } }}
             />
             <EpicChip
               type="Large"
@@ -69,7 +69,7 @@ const App = () => {
               labelOptions={{
                 label: "Large",
               }}
-              options={{ pickerStyles: { marginRight: 10, marginBottom: 10 } }}
+              options={{ chipStyles: { marginRight: 10, marginBottom: 10 } }}
             />
             <EpicChip
               type="Mini"
@@ -78,7 +78,7 @@ const App = () => {
               labelOptions={{
                 label: "Mini",
               }}
-              options={{ pickerStyles: { marginRight: 10, marginBottom: 10 } }}
+              options={{ chipStyles: { marginRight: 10, marginBottom: 10 } }}
             />
             <EpicChip
               type="Micro"
@@ -87,7 +87,7 @@ const App = () => {
               labelOptions={{
                 label: "Micro",
               }}
-              options={{ pickerStyles: { marginRight: 10, marginBottom: 10 } }}
+              options={{ chipStyles: { marginRight: 10, marginBottom: 10 } }}
             />
           </View>
 
@@ -108,7 +108,7 @@ const App = () => {
               labelOptions={{
                 label: "Unchecked",
               }}
-              options={{ pickerStyles: { marginRight: 10, marginBottom: 10 } }}
+              options={{ chipStyles: { marginRight: 10, marginBottom: 10 } }}
             />
             <EpicChip
               mode={"Solid"}
@@ -117,7 +117,7 @@ const App = () => {
               labelOptions={{
                 label: "Checked",
               }}
-              options={{ pickerStyles: { marginRight: 10, marginBottom: 10 } }}
+              options={{ chipStyles: { marginRight: 10, marginBottom: 10 } }}
             />
             <EpicChip
               mode={"Solid"}
@@ -126,7 +126,7 @@ const App = () => {
               labelOptions={{
                 label: "Checked Without Check Icon",
               }}
-              options={{ pickerStyles: { marginRight: 10, marginBottom: 10 } }}
+              options={{ chipStyles: { marginRight: 10, marginBottom: 10 } }}
             />
             <EpicChip
               mode={"Solid"}
@@ -135,7 +135,7 @@ const App = () => {
               labelOptions={{
                 label: "Disabled",
               }}
-              options={{ pickerStyles: { marginRight: 10, marginBottom: 10 } }}
+              options={{ chipStyles: { marginRight: 10, marginBottom: 10 } }}
             />
           </View>
 
@@ -158,7 +158,7 @@ const App = () => {
               }}
               isChecked
               options={{
-                pickerStyles: { marginRight: 10, marginBottom: 10 },
+                chipStyles: { marginRight: 10, marginBottom: 10 },
                 backgroundColor: {
                   focusColor: "#ff0000",
                   inActiveColor: "#ff4e4e",
@@ -175,7 +175,7 @@ const App = () => {
                 label: "Checked",
               }}
               options={{
-                pickerStyles: { marginRight: 10, marginBottom: 10 },
+                chipStyles: { marginRight: 10, marginBottom: 10 },
                 backgroundColor: {
                   focusColor: "#000000",
                   inActiveColor: "#78c223",
@@ -194,7 +194,7 @@ const App = () => {
                 label: "Checked Without Check Icon",
               }}
               options={{
-                pickerStyles: {
+                chipStyles: {
                   marginRight: 10,
                   marginBottom: 10,
                 },
@@ -222,7 +222,7 @@ const App = () => {
                 ),
               }}
               options={{
-                pickerStyles: {
+                chipStyles: {
                   marginRight: 10,
                   marginBottom: 10,
                 },
@@ -259,7 +259,7 @@ const App = () => {
                 Icon: <Ionicons name="person" color="white" size={15} />,
               }}
               options={{
-                pickerStyles: {
+                chipStyles: {
                   marginRight: 10,
                   marginBottom: 10,
                 },
@@ -283,7 +283,7 @@ const App = () => {
                 Icon: <Ionicons name="bulb" color="white" size={14} />,
               }}
               options={{
-                pickerStyles: {
+                chipStyles: {
                   marginRight: 10,
                   marginBottom: 10,
                 },
@@ -307,7 +307,7 @@ const App = () => {
                 label: "",
               }}
               options={{
-                pickerStyles: {
+                chipStyles: {
                   marginRight: 10,
                   marginBottom: 10,
                 },
@@ -322,7 +322,7 @@ const App = () => {
               labelOptions={{
                 label: "",
               }}
-              options={{ pickerStyles: { marginRight: 10, marginBottom: 10 } }}
+              options={{ chipStyles: { marginRight: 10, marginBottom: 10 } }}
             />
             <EpicChip
               mode={"Outlined"}
@@ -331,7 +331,7 @@ const App = () => {
                 label: "",
                 Icon: <Ionicons name="bulb" color="gray" size={14} />,
               }}
-              options={{ pickerStyles: { marginRight: 10, marginBottom: 10 } }}
+              options={{ chipStyles: { marginRight: 10, marginBottom: 10 } }}
             />
             <EpicChip
               mode={"Outlined"}
@@ -341,7 +341,7 @@ const App = () => {
                 label: "",
                 Icon: <Ionicons name="bulb" color="gray" size={8} />,
               }}
-              options={{ pickerStyles: { marginRight: 10, marginBottom: 10 } }}
+              options={{ chipStyles: { marginRight: 10, marginBottom: 10 } }}
             />
           </View>
         </View>
