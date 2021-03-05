@@ -52,6 +52,7 @@ Please install `React Native Vector Icons` `npm i react-native-vector-icons @typ
 ## Author
 
 - Abdullah Khan
+- Saif Ali Khan
 
 ## License
 
@@ -59,6 +60,6 @@ Please install `React Native Vector Icons` `npm i react-native-vector-icons @typ
 
 <div align="center">
 
-Liked the library? 😇
+Liked the Component? 😇
 
 ---
