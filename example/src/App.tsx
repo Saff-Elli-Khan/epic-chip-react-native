@@ -5,6 +5,7 @@ import Ionicons from "react-native-vector-icons/Ionicons";
 
 const App = () => {
   return (
+    // Main View
     <View
       style={{
         flex: 1,
@@ -22,6 +23,9 @@ const App = () => {
         <View style={{ width: "100%", marginVertical: 20 }}>
           <Text style={{ fontSize: 25 }}>Outlined Chip</Text>
         </View>
+
+        {/* Outlined Chips */}
+
         <EpicChip
           mode={"Outlined"}
           titleOptions={{
@@ -84,6 +88,7 @@ const App = () => {
           options={{ pickerStyles: { marginRight: 10, marginBottom: 10 } }}
         />
       </View>
+
       <View
         style={{
           flexDirection: "row",
@@ -93,6 +98,9 @@ const App = () => {
         <View style={{ width: "100%", marginVertical: 20 }}>
           <Text style={{ fontSize: 25 }}>Solid Chip</Text>
         </View>
+
+        {/* Solid Chips */}
+
         <EpicChip
           mode={"Solid"}
           titleOptions={{
@@ -128,6 +136,7 @@ const App = () => {
           options={{ pickerStyles: { marginRight: 10, marginBottom: 10 } }}
         />
       </View>
+
       <View
         style={{
           flexDirection: "row",
@@ -137,6 +146,9 @@ const App = () => {
         <View style={{ width: "100%", marginVertical: 20 }}>
           <Text style={{ fontSize: 25 }}>Custom Chip</Text>
         </View>
+
+        {/* Custom Chip */}
+
         <EpicChip
           mode={"Solid"}
           titleOptions={{
@@ -241,6 +253,9 @@ const App = () => {
         <View style={{ width: "100%", marginVertical: 20 }}>
           <Text style={{ fontSize: 25 }}>Chip To Checkbox</Text>
         </View>
+        
+        {/* Chip Checkboxes */}
+
         <EpicChip
           mode={"Solid"}
           checkIcon
