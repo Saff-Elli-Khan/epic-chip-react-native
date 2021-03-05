@@ -19,11 +19,14 @@ export const chipStyles = StyleSheet.create({
   },
   // CheckBox Transformation Styles
   checkboxTransform: {
+    justifyContent: "center",
+    alignItems: "center",
     paddingHorizontal: 10,
     paddingVertical: 10,
     borderWidth: 1.4,
     borderRadius: 50,
-    minWidth: 38,
+    width: 40,
+    height: 40,
   },
 });
 
@@ -47,11 +50,14 @@ export const miniChipStyles = StyleSheet.create({
   },
   // CheckBox Transformation Styles
   checkboxTransform: {
+    justifyContent: "center",
+    alignItems: "center",
     paddingHorizontal: 5,
     paddingVertical: 5,
     borderWidth: 1.4,
     borderRadius: 50,
-    minWidth: 28,
+    width: 28,
+    height: 28,
   },
 });
 
@@ -74,11 +80,14 @@ export const largeChipStyles = StyleSheet.create({
   },
   // CheckBox Transformation Styles
   checkboxTransform: {
+    justifyContent: "center",
+    alignItems: "center",
     paddingHorizontal: 20,
     paddingVertical: 20,
     borderWidth: 1.4,
     borderRadius: 100,
-    minWidth: 58,
+    width: 65,
+    height: 65,
   },
 });
 
@@ -102,10 +111,13 @@ export const microChipStyles = StyleSheet.create({
   },
   // CheckBox Transformation Styles
   checkboxTransform: {
+    justifyContent: "center",
+    alignItems: "center",
     paddingHorizontal: 5,
     paddingVertical: 3,
     borderWidth: 1.4,
     borderRadius: 50,
-    minWidth: 23,
+    width: 23,
+    height: 23,
   },
 });

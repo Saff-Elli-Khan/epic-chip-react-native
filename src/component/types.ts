@@ -27,5 +27,5 @@ export interface EpicChipOptionsInterface {
   pickerStyles?: StyleProp<ViewStyle>;
   titleStyles?: StyleProp<TextStyle>;
   backgroundColor?: EpicChipFocusInterface;
-  titleColor?: EpicChipFocusInterface;
+  labelColor?: EpicChipFocusInterface;
 }

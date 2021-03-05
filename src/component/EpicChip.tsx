@@ -57,12 +57,7 @@ export const EpicChip = React.forwardRef<EpicChipRef, EpicChipInterface>(
     }));
 
     const toggle = () => {
-      LayoutAnimation.configureNext({
-        duration: 500,
-        create: { type: "easeInEaseOut", property: "opacity" },
-        update: { type: "spring", springDamping: 0.4 },
-        delete: { type: "spring", property: "opacity" },
-      });
+      LayoutAnimation.configureNext(LayoutAnimation.Presets.spring);
       setChecked(!checked);
       if (typeof onChange === "function") onChange(!checked);
     };
@@ -85,10 +80,10 @@ export const EpicChip = React.forwardRef<EpicChipRef, EpicChipInterface>(
             options?.titleStyles,
             {
               color:
-                mode === "Solid" && options?.titleColor
+                mode === "Solid" && options?.labelColor
                   ? checked
-                    ? options.titleColor.focusColor
-                    : options.titleColor.inActiveColor
+                    ? options.labelColor.focusColor
+                    : options.labelColor.inActiveColor
                   : changeTheme(
                       mode,
                       100,
@@ -186,10 +181,10 @@ export const EpicChip = React.forwardRef<EpicChipRef, EpicChipInterface>(
                     : 16
                 }
                 color={
-                  mode === "Solid" && options?.titleColor
+                  mode === "Solid" && options?.labelColor
                     ? checked
-                      ? options.titleColor.focusColor
-                      : options.titleColor.inActiveColor
+                      ? options.labelColor.focusColor
+                      : options.labelColor.inActiveColor
                     : changeTheme(
                         mode,
                         100,
