@@ -1,6 +1,6 @@
 {
   "name": "epic-chip-react-native",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "An elegant react native chip module.",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -34,7 +34,14 @@
   "keywords": [
     "react-native",
     "ios",
-    "android"
+    "android",
+    "chip",
+    "react-native-chip",
+    "expo",
+    "picker",
+    "selectable",
+    "component",
+    "animated"
   ],
   "repository": "https://github.com/Saff-Elli-Khan/epic-chip-react-native",
   "author": "Abdullah Khan <mohammadabdullahkhan@mail.com> (https://github.com/Saff-Elli-Khan/epic-chip-react-native)",
