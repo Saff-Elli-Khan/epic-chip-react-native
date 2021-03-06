@@ -204,7 +204,7 @@ export const EpicChip = React.forwardRef<EpicChipRef, EpicChipInterface>(
               ? EpicChipTitleContent(labelOptions?.label)
               : React.isValidElement(labelOptions?.label)
               ? labelOptions?.label
-              : EpicChipTitleContent("Unlabelled")}
+              : null}
           </View>
         </View>
       );
