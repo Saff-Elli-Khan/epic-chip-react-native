@@ -4,7 +4,7 @@
 
 An elegant & fully customizable chip 🚀
 
-![Epic Chip React Native](./epic-chip.png)
+![Epic Chip React Native](https://raw.githubusercontent.com/Saff-Elli-Khan/epic-chip-react-native/main/epic-chip.png?token=AO7D3F7YTIRFN262OIA26R3AINQBO)
 
 ---
 
@@ -12,7 +12,7 @@ An elegant & fully customizable chip 🚀
 
 - 🌟 Full customizable.
 - Smooth & faster animation.
-- `IOS` and, `Android` Supported.
+- Support `IOS` and, `Android`.
 - Compatible with `Expo`.
 - Written in `TypeScript`.
 
