@@ -1,6 +1,6 @@
 {
   "name": "epic-chip-react-native",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "An elegant react native chip module.",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
