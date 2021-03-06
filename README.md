@@ -12,7 +12,7 @@ An elegant & fully customizable chip 🚀
 
 - 🌟 Full customizable.
 - Smooth & faster animation.
-- Support `IOS` and, `Android`.
+- `IOS` and, `Android` Supported.
 - Compatible with `Expo`.
 - Written in `TypeScript`.
 
@@ -23,16 +23,61 @@ Type `npm i epic-chip-react-native` to install it on your project.
 
 For `yarn` do `yarn add epic-chip-react-native`.
 
-## Note
+## Important
 Please install `React Native Vector Icons` `npm i react-native-vector-icons @types/react-native-vector-icons`.
 
-## Usage
+## Installation
 
-`import { EpicChip } from "epic-chip-react-native";`
+Use npm or yarn to install the library
 
-//Load Component
+NPM: `npm i epic-chip-react-native`
 
-`<EpicChip labelOptions={{label: "Epic Chip"}} />` & Done 😉
+Yarn: `yarn add epic-chip-react-native`
+
+```tsx
+import { EpicChip } from 'epic-chip-react-native';
+
+const App = () => {
+  return <EpicChip labelOptions={{label: "Epic Chip"}} />;
+}
+
+export detault App;
+
+```
+
+
+## Using Ref#
+
+You can also toggle chip using ref hook.
+
+```tsx
+import { EpicChip, EpicChipRef } from 'epic-chip-react-native';
+
+const App = () => {
+
+const EpicChipRef = useRef<EpicChipRef>(null);
+
+  return (
+    <>
+        <EpicChip 
+        ref={EpicChipRef} 
+        labelOptions={{label: "Epic Chip"}} 
+        onChange={e => console.log(e)} // print boolean;
+        />
+        
+        </View style={{marginVertical: 30}}>
+            <Button 
+            onPress={()=> EpicChipRef.current?.toggleCheck()}>
+            Toggle Chip
+            </Button>
+        </View> 
+        
+    </>
+  );
+}
+
+export detault App;
+```
 
 ## Props
 
@@ -48,6 +93,7 @@ Please install `React Native Vector Icons` `npm i react-native-vector-icons @typ
 | `isDisabled` | For disabling the chip`.                  | NO       | 'boolean'                                                                                          |   false       |
 | `checkedIcon`           | Changing the default check icon`.                               | NO       | React.ReactNode                                                                                                    |          |
 | `onChange`              | Callback on item change                                                            | NO       | (value: boolean) => void                                                                                                   |     |
+ `ref`              | ref hook `toggleCheck() // void function `                                                           | NO       |                                                                                               |     |
 
 ## Author
 
@@ -60,6 +106,6 @@ Please install `React Native Vector Icons` `npm i react-native-vector-icons @typ
 
 <div align="center">
 
-Liked the library? 😇
+Liked the Component? 😇
 
 ---
