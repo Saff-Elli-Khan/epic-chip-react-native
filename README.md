@@ -4,7 +4,7 @@
 
 An elegant & fully customizable chip 🚀
 
-![Epic Chip React Native](https://raw.githubusercontent.com/Saff-Elli-Khan/epic-chip-react-native/main/epic-chip.png?token=AO7D3F7YTIRFN262OIA26R3AINQBO)
+![Epic Chip React Native](https://epicframework.000webhostapp.com/epic-chip.png)
 
 ---
 
